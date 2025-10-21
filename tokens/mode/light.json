@@ -12,7 +12,7 @@
         },
         "inverse": {
           "$type": "color",
-          "$value": "{color.palette.white}"
+          "$value": "{color.palette.accent.900}"
         },
         "accent": {
           "$type": "color",
@@ -34,7 +34,7 @@
         },
         "accent": {
           "$type": "color",
-          "$value": "{color.palette.accent.700}"
+          "$value": "{color.palette.accent.400}"
         },
         "accent-light": {
           "$type": "color",
