@@ -1,4 +1,60 @@
 {
+  "4": {
+    "$type": "opacity",
+    "$value": "0.04"
+  },
+  "8": {
+    "$type": "opacity",
+    "$value": "0.08"
+  },
+  "12": {
+    "$type": "opacity",
+    "$value": "0.12"
+  },
+  "16": {
+    "$type": "opacity",
+    "$value": "0.16"
+  },
+  "24": {
+    "$type": "opacity",
+    "$value": "0.24"
+  },
+  "32": {
+    "$type": "opacity",
+    "$value": "0.32"
+  },
+  "40": {
+    "$type": "opacity",
+    "$value": "0.40"
+  },
+  "48": {
+    "$type": "opacity",
+    "$value": "0.48"
+  },
+  "56": {
+    "$type": "opacity",
+    "$value": "0.56"
+  },
+  "64": {
+    "$type": "opacity",
+    "$value": "0.64"
+  },
+  "72": {
+    "$type": "opacity",
+    "$value": "0.72"
+  },
+  "80": {
+    "$type": "opacity",
+    "$value": "0.80"
+  },
+  "88": {
+    "$type": "opacity",
+    "$value": "0.88"
+  },
+  "96": {
+    "$type": "opacity",
+    "$value": "0.96"
+  },
   "dimension": {
     "x025": {
       "$type": "dimension",
@@ -152,39 +208,39 @@
   "fontFamily": {
     "primary": {
       "$type": "fontFamilies",
-      "$value": "Space Grotesk"
+      "$value": "Circular Std"
     },
     "secondary": {
       "$type": "fontFamilies",
-      "$value": "Outfit"
+      "$value": "Inter"
     }
   },
   "lineHeight": {
     "small": {
       "$type": "lineHeights",
-      "$value": "120%"
+      "$value": "100%"
     },
     "medium": {
       "$type": "lineHeights",
-      "$value": "150%"
+      "$value": "120%"
     }
   },
   "fontWeight": {
-    "light": {
+    "book": {
       "$type": "fontWeights",
-      "$value": "Light"
-    },
-    "regular": {
-      "$type": "fontWeights",
-      "$value": "Regular"
+      "$value": "Book"
     },
     "medium": {
       "$type": "fontWeights",
       "$value": "Medium"
     },
-    "semibold": {
+    "bold": {
       "$type": "fontWeights",
-      "$value": "SemiBold"
+      "$value": "Bold"
+    },
+    "black": {
+      "$type": "fontWeights",
+      "$value": "Black"
     }
   },
   "fontSize": {

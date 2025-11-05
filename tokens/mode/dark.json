@@ -4,7 +4,7 @@
       "content": {
         "primary": {
           "$type": "color",
-          "$value": "{color.palette.white}"
+          "$value": "{color.palette.alpha.white.100}"
         },
         "secondary": {
           "$type": "color",
@@ -12,7 +12,7 @@
         },
         "inverse": {
           "$type": "color",
-          "$value": "{color.palette.black}"
+          "$value": "{color.palette.alpha.black.100}"
         },
         "accent": {
           "$type": "color",
@@ -22,7 +22,7 @@
       "background": {
         "surface": {
           "$type": "color",
-          "$value": "{color.palette.black}"
+          "$value": "{color.palette.alpha.black.100}"
         },
         "primary": {
           "$type": "color",

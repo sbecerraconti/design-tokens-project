@@ -5,7 +5,7 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.medium}",
+          "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.small}",
           "fontSize": "{fontSize.800}",
           "letterSpacing": "{letterSpacing.contracted}"
@@ -15,7 +15,7 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.medium}",
+          "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.small}",
           "fontSize": "{fontSize.600}",
           "letterSpacing": "{letterSpacing.contracted}"
@@ -25,7 +25,7 @@
         "$type": "typography",
         "$value": {
           "fontFamily": "{fontFamily.primary}",
-          "fontWeight": "{fontWeight.medium}",
+          "fontWeight": "{fontWeight.bold}",
           "lineHeight": "{lineHeight.small}",
           "fontSize": "{fontSize.400}",
           "letterSpacing": "{letterSpacing.default}"
@@ -37,8 +37,8 @@
         "default": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.light}",
+            "fontFamily": "{fontFamily.primary}",
+            "fontWeight": "{fontWeight.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.400}",
             "letterSpacing": "{letterSpacing.default}"
@@ -47,8 +47,8 @@
         "strong": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontFamily": "{fontFamily.primary}",
+            "fontWeight": "{fontWeight.bold}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.400}",
             "letterSpacing": "{letterSpacing.default}"
@@ -59,8 +59,8 @@
         "default": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.light}",
+            "fontFamily": "{fontFamily.primary}",
+            "fontWeight": "{fontWeight.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.100}",
             "letterSpacing": "{letterSpacing.default}"
@@ -69,8 +69,8 @@
         "strong": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontFamily": "{fontFamily.primary}",
+            "fontWeight": "{fontWeight.bold}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.100}",
             "letterSpacing": "{letterSpacing.default}"
@@ -83,8 +83,8 @@
         "default": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.light}",
+            "fontFamily": "{fontFamily.primary}",
+            "fontWeight": "{fontWeight.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
             "letterSpacing": "{letterSpacing.default}"
@@ -93,8 +93,8 @@
         "strong": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontFamily": "{fontFamily.primary}",
+            "fontWeight": "{fontWeight.bold}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
             "letterSpacing": "{letterSpacing.default}"
@@ -104,7 +104,7 @@
           "$type": "typography",
           "$value": {
             "fontFamily": "{fontFamily.primary}",
-            "fontWeight": "{fontWeight.medium}",
+            "fontWeight": "{fontWeight.bold}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
             "letterSpacing": "{letterSpacing.expanded}",
@@ -114,8 +114,8 @@
         "underline": {
           "$type": "typography",
           "$value": {
-            "fontFamily": "{fontFamily.secondary}",
-            "fontWeight": "{fontWeight.light}",
+            "fontFamily": "{fontFamily.primary}",
+            "fontWeight": "{fontWeight.medium}",
             "lineHeight": "{lineHeight.medium}",
             "fontSize": "{fontSize.90}",
             "letterSpacing": "{letterSpacing.default}",
