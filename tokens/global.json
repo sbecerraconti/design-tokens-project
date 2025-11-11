@@ -208,7 +208,7 @@
   "fontFamily": {
     "primary": {
       "$type": "fontFamilies",
-      "$value": "Circular Std"
+      "$value": "Poppins"
     },
     "secondary": {
       "$type": "fontFamilies",
@@ -226,21 +226,21 @@
     }
   },
   "fontWeight": {
-    "book": {
+    "regular": {
       "$type": "fontWeights",
-      "$value": "Book"
+      "$value": "Regular"
     },
     "medium": {
       "$type": "fontWeights",
       "$value": "Medium"
     },
+    "semibold": {
+      "$type": "fontWeights",
+      "$value": "Semi Bold"
+    },
     "bold": {
       "$type": "fontWeights",
       "$value": "Bold"
-    },
-    "black": {
-      "$type": "fontWeights",
-      "$value": "Black"
     }
   },
   "fontSize": {
@@ -338,7 +338,7 @@
       "height": {
         "default": {
           "$type": "sizing",
-          "$value": "{dimension.x1000}"
+          "$value": "{dimension.x1200}"
         }
       }
     }
@@ -399,6 +399,19 @@
       "$value": {
         "width": "{borderWidth.medium}",
         "style": "solid"
+      }
+    }
+  },
+  "shadow": {
+    "sm": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "0",
+        "y": "1",
+        "blur": "2",
+        "spread": "0",
+        "color": "{color.palette.alpha.black.100}",
+        "type": "dropShadow"
       }
     }
   }
