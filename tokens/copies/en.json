@@ -2,151 +2,151 @@
   "hero": {
     "title": {
       "$type": "text",
-      "$value": "Hero Title"
+      "$value": "Your personal caddie app to breake your handicap"
     },
     "subtitle": {
       "$type": "text",
-      "$value": "Hero Subtitle"
+      "$value": "Steve learns how you play, analyzes your rounds and guides your decisions on the course"
     },
     "button": {
       "$type": "text",
-      "$value": "Hero Button"
+      "$value": "Download app"
     }
   },
   "intro": {
     "title": {
       "$type": "text",
-      "$value": "Intro Title"
+      "$value": "Personalized guidance for every shot during the round"
     },
     "subtitle": {
       "p1": {
         "$type": "text",
-        "$value": "Intro paragraph 1"
+        "$value": "Steve takes your handicap, tendencies, strengths, weaknesses and confidence patterns into account."
       },
       "p2": {
         "$type": "text",
-        "$value": "Intro paragraph 2"
+        "$value": "On the course, Steve analyzes distance, elevation, lie, wind, weather, temperature, slope rating, course strategy, and your current position to guide your decisions in real time."
       }
     },
     "button": {
       "primary": {
         "$type": "text",
-        "$value": "Intro button primary"
+        "$value": "Download app"
       },
       "secondary": {
         "$type": "text",
-        "$value": "Intro button secondary"
+        "$value": "Watch demo"
       }
     }
   },
   "logos": {
     "title": {
       "$type": "text",
-      "$value": "Logos Title"
+      "$value": "Available at over 44k golf courses worldwide"
     }
   },
   "sessions": {
     "title": {
       "$type": "text",
-      "$value": "Sessions title"
+      "$value": "How it works"
     },
     "tag": {
       "one": {
         "$type": "text",
-        "$value": "Sessions tag one"
+        "$value": "Profile creation"
       },
       "two": {
         "$type": "text",
-        "$value": "Sessions tag two"
+        "$value": "Clubs set-up"
       },
       "three": {
         "$type": "text",
-        "$value": "Sessions tag three"
+        "$value": "Rounds details"
       },
       "four": {
         "$type": "text",
-        "$value": "Sessions tag four"
+        "$value": "Hole & shot strategy"
       },
       "five": {
         "$type": "text",
-        "$value": "Sessions tag five"
+        "$value": "Post rounds overviews"
       }
     },
     "card": {
       "one": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption one"
+          "$value": "#1"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title one"
+          "$value": "Create your profile"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description one"
+          "$value": "Sync your official handicap to set your performance baseline. Steve uses your HCP to understand your expected scoring, tendencies and decision patterns."
         }
       },
       "two": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption two"
+          "$value": "#2"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title two"
+          "$value": "Set up your clubs"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description two"
+          "$value": "Customize your bag: club distances, preferred trajectories, dispersion patterns, and miss tendencies. This allows Steve to model your real game — not a theoretical one."
         }
       },
       "three": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption three"
+          "$value": "#3"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title three"
+          "$value": "Set the pools & add golfers"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description three"
+          "$value": "Steve supports general strokes or stableford), singles, foursomes, and four-ball formats. It automatically loads course rating, slope, elevation, hazards, green areas, weather, wind, GPS positioning, and strategy context for more than 44,000 courses worldwide."
         }
       },
       "four": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption four"
+          "$value": "#4"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title four"
+          "$value": "Hole strategy & shot-by-shot guidance"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description four"
+          "$value": "Steve gives an overview of each hole: landing zones, dangers, and risk options. He also recommends the best club and target based on your position, lie, distance, and conditions. You can ask Steve questions anytime."
         }
       },
       "five": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption five"
+          "$value": "#5"
         },
         "title": {
           "$type": "text",
-          "$value": "Card title five"
+          "$value": "Review, reflect and improve"
         },
         "description": {
           "$type": "text",
-          "$value": "Card description five"
+          "$value": "After the round, Steve analyzes your scoring patterns and highlights the most impactful improvement opportunities. Then, Steve recommends a personalized practice plan in collaboration with CORE Golf, tailored to your current level and weaknesses — so you actually improve, not just record data."
         }
       },
       "six": {
         "caption": {
           "$type": "text",
-          "$value": "Card caption six"
+          "$value": "#6"
         },
         "title": {
           "$type": "text",
@@ -219,26 +219,26 @@
     "one": {
       "name": {
         "$type": "text",
-        "$value": "Name one"
+        "$value": "Tiger Woods"
       },
       "position": {
         "$type": "text",
-        "$value": "Position one"
+        "$value": "Professional Golfer"
       }
     },
     "two": {
       "name": {
         "$type": "text",
-        "$value": "Name two"
+        "$value": "Steve Williams"
       },
       "position": {
         "$type": "text",
-        "$value": "Position two"
+        "$value": "Major Caddie"
       }
     },
     "title": {
       "$type": "text",
-      "$value": "Title teachers"
+      "$value": "Inspired in the story of two majors"
     }
   },
   "pricing": {
@@ -250,11 +250,11 @@
       "one": {
         "caption": {
           "$type": "text",
-          "$value": "Caption card one"
+          "$value": "SOLID FOUNDATIONS"
         },
         "title": {
           "$type": "text",
-          "$value": "Title card one"
+          "$value": "Break 100"
         },
         "price": {
           "$type": "text",
@@ -262,21 +262,21 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Description card one"
+          "$value": "Steve will help you reduce penalties, avoid costly decisions, and keep the ball in play. Small, consistent improvements → big scoring changes."
         },
         "button": {
           "$type": "text",
-          "$value": "Button card one"
+          "$value": "Break 100 now"
         }
       },
       "two": {
         "caption": {
           "$type": "text",
-          "$value": "Caption card two"
+          "$value": "DECENT GOLF"
         },
         "title": {
           "$type": "text",
-          "$value": "Title card two"
+          "$value": "Break 90"
         },
         "price-primary": {
           "$type": "text",
@@ -288,29 +288,29 @@
         },
         "description": {
           "$type": "text",
-          "$value": "Description card two"
+          "$value": "Steve will help you tighten approach shots, manage misses, and eliminate the “double-bogey holes.” Consistency beats talent."
         },
         "button": {
           "$type": "text",
-          "$value": "Button card two"
+          "$value": "Swing now"
         }
       },
       "three": {
         "caption": {
           "$type": "text",
-          "$value": "Caption card three"
+          "$value": "PRECISION & DISCIPLINE"
         },
         "title": {
           "$type": "text",
-          "$value": "Title card three"
+          "$value": "Break 80"
         },
         "description": {
           "$type": "text",
-          "$value": "Description card three"
+          "$value": "Steve identifies where you actually lose strokes and guides your decisions under pressure. This is where golf becomes intentional."
         },
         "button": {
           "$type": "text",
-          "$value": "Button card three"
+          "$value": "Putt now"
         }
       }
     }
@@ -318,73 +318,73 @@
   "video": {
     "title": {
       "$type": "text",
-      "$value": "Title video"
+      "$value": "See Steve in action"
     }
   },
   "faqs": {
     "one": {
       "title": {
         "$type": "text",
-        "$value": "Title one"
+        "$value": "What does Steve actually do?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description one"
+        "$value": "Steve analyzes your game and guides your decisions on the course. It considers your handicap, club distances, miss tendencies, course data, weather, elevation and risk vs reward — to recommend the smartest shot for your game."
       }
     },
     "two": {
       "title": {
         "$type": "text",
-        "$value": "Title two"
+        "$value": "Do I need to enter my stats manually?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description two"
+        "$value": "No.  Steve learns from the way you play. You confirm your club choice and results, and Steve builds your performance model in the background."
       }
     },
     "three": {
       "title": {
         "$type": "text",
-        "$value": "Title three"
+        "$value": "Does Steve work for beginners?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description three"
+        "$value": "Yes. If you’re breaking 100 or just starting, Steve focuses on control, confidence, and avoiding penalty mistakes, not complex strategy."
       }
     },
     "four": {
       "title": {
         "$type": "text",
-        "$value": "Title four"
+        "$value": "What about single-digit or low-handicap golfers?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description four"
+        "$value": "Steve adapts. For competitive golfers, recommendations focus on precision, course management, dispersion control, and scoring efficiency — where strokes are truly won."
       }
     },
     "five": {
       "title": {
         "$type": "text",
-        "$value": "Title five"
+        "$value": "Can Steve be used during tournaments?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description five"
+        "$value": "Yes. Steve has a competition-compliant mode where strategic advice is paused, but round tracking and post-round analysis still work."
       }
     },
     "six": {
       "title": {
         "$type": "text",
-        "$value": "Title six"
+        "$value": "How does Steve know my distances and misses?"
       },
       "description": {
         "$type": "text",
-        "$value": "Description six"
+        "$value": "You set up your bag once (clubs, yardages, miss patterns), and Steve refines them automatically every time you play, based on real shot outcomes."
       }
     },
     "title": {
       "$type": "text",
-      "$value": "Title FAQs"
+      "$value": "Some golfers actually ask..."
     }
   },
   "footer": {

@@ -12,7 +12,7 @@
         },
         "inverse": {
           "$type": "color",
-          "$value": "{color.palette.accent.900}"
+          "$value": "{color.palette.secondary.800}"
         },
         "accent": {
           "$type": "color",
@@ -30,7 +30,7 @@
         },
         "secondary": {
           "$type": "color",
-          "$value": "{color.palette.mono.50}"
+          "$value": "{color.palette.tertiary.50}"
         },
         "accent": {
           "$type": "color",
@@ -38,7 +38,7 @@
         },
         "accent-light": {
           "$type": "color",
-          "$value": "{color.palette.mono.100}"
+          "$value": "{color.palette.secondary.50}"
         }
       },
       "border": {
@@ -49,6 +49,16 @@
         "accent": {
           "$type": "color",
           "$value": "{color.palette.accent.400}"
+        }
+      },
+      "overlay": {
+        "primary": {
+          "$type": "color",
+          "$value": "{color.palette.alpha.white.100}"
+        },
+        "secondary": {
+          "$type": "color",
+          "$value": "{color.palette.alpha.white.64}"
         }
       }
     },
@@ -77,25 +87,25 @@
         "primary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.background.accent}"
+            "$value": "{color.palette.accent.400}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.states.background.accent-hover}"
+            "$value": "{color.palette.accent.500}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.states.background.accent-active}"
+            "$value": "{color.palette.accent.400}"
           }
         },
         "secondary": {
           "hover": {
             "$type": "color",
-            "$value": "{color.states.background.accent-light-hover}"
+            "$value": "{color.button.border.secondary.hover}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.states.background.accent-light-active}"
+            "$value": "{color.button.content.primary.active}"
           }
         }
       },
@@ -117,15 +127,15 @@
         "secondary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.content.accent}"
+            "$value": "{color.palette.secondary.800}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.core.content.accent}"
+            "$value": "{color.palette.accent.400}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.core.content.accent}"
+            "$value": "{color.button.content.secondary.hover}"
           }
         }
       },
@@ -147,15 +157,15 @@
         "secondary": {
           "default": {
             "$type": "color",
-            "$value": "{color.core.border.accent}"
+            "$value": "{color.palette.secondary.800}"
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.core.border.accent}"
+            "$value": "{color.palette.secondary.700}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.core.border.accent}"
+            "$value": "{color.palette.secondary.800}"
           }
         }
       }

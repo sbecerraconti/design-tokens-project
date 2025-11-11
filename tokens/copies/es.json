@@ -53,7 +53,7 @@
     "tag": {
       "one": {
         "$type": "text",
-        "$value": "Etiqueta de sesión uno"
+        "$value": "Create your round"
       },
       "two": {
         "$type": "text",

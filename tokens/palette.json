@@ -459,7 +459,7 @@
           "$value": "#01320b"
         }
       },
-      "primary": {
+      "accent": {
         "50": {
           "$type": "color",
           "$value": "#F8FEEF"
