@@ -4,7 +4,7 @@
       "content": {
         "primary": {
           "$type": "color",
-          "$value": "{color.palette.black}"
+          "$value": "{color.palette.alpha.black.100}"
         },
         "secondary": {
           "$type": "color",
@@ -16,13 +16,13 @@
         },
         "accent": {
           "$type": "color",
-          "$value": "{color.palette.accent.800}"
+          "$value": "{color.palette.accent.400}"
         }
       },
       "background": {
         "surface": {
           "$type": "color",
-          "$value": "{color.palette.white}"
+          "$value": "{color.palette.alpha.white.100}"
         },
         "primary": {
           "$type": "color",
