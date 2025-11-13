@@ -22,11 +22,10 @@ async function run() {
   const globalTheme = themes.getThemeByName("global")
   const lightTheme = themes.getThemeByName("light")
   const darkTheme = themes.getThemeByName("dark")
+  const mobileTheme = themes.getThemeByName("mobile")
+  const desktopTheme = themes.getThemeByName("desktop")
 
   const globalConfig = {
-    log: {
-      verbosity: "verbose",
-    },
     expand:{
       typesMap: true
     },
@@ -49,8 +48,54 @@ async function run() {
     }
   }
 
+  const mobileConfig = {
+    expand:{
+      typesMap: true
+    },
+    platforms:{
+      web:{
+        files: [
+          {
+            format:"css/variables",
+            destination:"app/build/mobile/varibales.css"
+          }
+        ],
+        transforms: [
+          "name/kebab",
+          "ts/resolveMath",
+          "size/pxToRem",
+          "ts/typography/fontWeight",
+          "ts/size/lineheight"
+        ]
+      }
+    }
+  }
+
+  const desktopConfig = {
+    expand:{
+      typesMap: true
+    },
+    platforms:{
+      web:{
+        files: [
+          {
+            format:"css/variables",
+            destination:"app/build/desktop/varibales.css"
+          }
+        ],
+        transforms: [
+          "name/kebab",
+          "ts/resolveMath",
+          "size/pxToRem",
+          "ts/typography/fontWeight",
+          "ts/size/lineheight"
+        ]
+      }
+    }
+  }
+
   const androidConfig ={
-     expand:{
+    expand:{
       typesMap: true
     },
     platforms:{
@@ -73,7 +118,7 @@ async function run() {
   }
 
    const lightConfig = {
-     platforms:{
+    platforms:{
        web:{
          files: [
            {
@@ -115,6 +160,9 @@ async function run() {
   globalTheme.addConfig(androidConfig).build()
   lightTheme.addConfig(lightConfig).build()
   darkTheme.addConfig(darkConfig).build()
+  mobileTheme.addConfig(mobileConfig).build()
+  desktopTheme.addConfig(desktopConfig).build()
+  
   //globalTheme.print()
 
   //themes.print()
