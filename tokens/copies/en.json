@@ -2,11 +2,11 @@
   "hero": {
     "title": {
       "$type": "text",
-      "$value": "Your personal caddie app to breake your handicap"
+      "$value": "Your intelligent personal caddie"
     },
     "subtitle": {
       "$type": "text",
-      "$value": "Steve learns how you play, analyzes your rounds and guides your decisions on the course"
+      "$value": "Steve learns how you play, to break your handicap"
     },
     "button": {
       "$type": "text",
@@ -16,12 +16,12 @@
   "intro": {
     "title": {
       "$type": "text",
-      "$value": "Personalized guidance for every shot during the round"
+      "$value": "Guidance for every shot during the round."
     },
     "subtitle": {
       "p1": {
         "$type": "text",
-        "$value": "Steve takes your handicap, tendencies, strengths, weaknesses and confidence patterns into account."
+        "$value": "Steve not only consider your handicap, distance and dispersion, but also analyze distance, wind, elevation, weather, obstacles and slope to guide your decisions."
       },
       "p2": {
         "$type": "text",
@@ -42,7 +42,7 @@
   "logos": {
     "title": {
       "$type": "text",
-      "$value": "Available at over 44k golf courses worldwide"
+      "$value": "Available at top golf courses worldwide"
     }
   },
   "sessions": {
@@ -244,7 +244,7 @@
   "pricing": {
     "title": {
       "$type": "text",
-      "$value": "Pricing title"
+      "$value": "Break your handicap"
     },
     "card": {
       "one": {
@@ -384,7 +384,7 @@
     },
     "title": {
       "$type": "text",
-      "$value": "Some golfers actually ask..."
+      "$value": "Golfers actually ask..."
     }
   },
   "footer": {

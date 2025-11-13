@@ -208,11 +208,11 @@
   "fontFamily": {
     "primary": {
       "$type": "fontFamilies",
-      "$value": "Poppins"
+      "$value": "Google Sans"
     },
     "secondary": {
       "$type": "fontFamilies",
-      "$value": "Inter"
+      "$value": "Google Sans"
     }
   },
   "lineHeight": {
@@ -236,7 +236,7 @@
     },
     "semibold": {
       "$type": "fontWeights",
-      "$value": "Semi Bold"
+      "$value": "Bold"
     },
     "bold": {
       "$type": "fontWeights",

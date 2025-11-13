@@ -39,6 +39,14 @@
         "accent-light": {
           "$type": "color",
           "$value": "{color.palette.secondary.50}"
+        },
+        "tertiary": {
+          "$type": "color",
+          "$value": "{color.palette.secondary.950}"
+        },
+        "tertirary-alt": {
+          "$type": "color",
+          "$value": "{color.palette.secondary.900}"
         }
       },
       "border": {
@@ -49,6 +57,32 @@
         "accent": {
           "$type": "color",
           "$value": "{color.palette.accent.400}"
+        },
+        "secondary": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{color.palette.secondary.800}"
+        },
+        "tertiary": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "value": "0.1",
+                "space": "lch"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{color.palette.tertiary.800}"
         }
       },
       "overlay": {
